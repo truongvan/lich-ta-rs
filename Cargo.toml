@@ -1,0 +1,14 @@
+[package]
+name = "lich_ta"
+version = "0.1.0"
+edition = "2021"
+authors = ["Truong Van <truongvan@live.com>"]
+repository = "https://github.com/truongvan/lich-ta-rs.git"
+categories = ["date-and-time", "no-std", "lich-ta", "ngay-ta"]
+readme = "./README.md"
+license = "MIT"
+description = "Tools for Lichta Calendar. Compatible with #![no_std]."
+include = ["src/**/*", "LICENSE", "README.md"]
+
+[dependencies]
+time = "0.3.36"
